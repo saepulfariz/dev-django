@@ -1,0 +1,28 @@
+>> bikin env dulu 
+>> python -m venv Env
+Env buat folder yang akan di create
+
+cara aktivkan env nya
+>> Env\Scripts\activate.bat
+
+>> pip list
+
+>> pip install Django==1.11.*
+
+>> pip list
+ buat lihat udah ke install belum Django
+
+>> django-admin startproject myproject
+// buat bikin project
+
+error gak bisa bikin project
+
+>> python -m pip install -U Django
+di update Django ke versi terbaru
+
+// jadi bisa
+
+>> django-admin startproject myproject
+ada filder myproject
+>> cd myproject 
+>> python manage.py runserver
